@@ -1,0 +1,26 @@
+{
+   "background": {
+      "scripts": [ "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icons/icon-popup.png"
+   },
+   "chrome_url_overrides": {
+      "bookmarks": "bookmarks.html"
+   },
+   "default_locale": "en",
+   "description": "__MSG_extDescription__",
+   "differential_fingerprint": "1.c73059fe5d2079dd97f241092bef1d4384735f5bfd02ce36d3e93012c930c24d",
+   "icons": {
+      "128": "icons/icon-128.png",
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png",
+      "64": "icons/icon-64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAy6t24bJoBOA0fkfMCPx12fwbAvHIOuwFTklzkMZQSFVtPuBAUelx1fWZNKeGAq+i+UuwPAL9NXYszwRcd//6iI2db1wS3xlqNFjXVZC5hvwHAljnDZqS37qFe9eUGVaXH+WbnkuOlrHI8nN/fX84LlbrVC5MJllxbuvEimTxSQaHhhqbl89BJowQ9zU4SDW0p+ZngdqC2OzAtvDj1MyMm3kKGYsEtSW3Hd4I3UIUEFlOm+833zLUh1ymGeb1FDqz7cBazAkNzASu7BPFL/Y/CszAONlBcxOMfq43ky1F34IQY9/DnEqMEUo3fOqYj0Nb+2mlKAhTPFPmt8A3oZcMWQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extName__",
+   "permissions": [ "bookmarks", "chrome://favicon/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.0"
+}
