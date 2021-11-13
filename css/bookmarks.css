@@ -1445,7 +1445,7 @@ body {
   padding: 0;
 }
 .layout-grid-small .bookmark-item {
-  flex-basis: 14.2857%;
+  flex-basis: 10%;
   overflow: hidden;
   padding: .5rem;
 }
