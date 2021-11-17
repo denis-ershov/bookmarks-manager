@@ -1445,7 +1445,7 @@ body {
   padding: 0;
 }
 .layout-grid-small .bookmark-item {
-  flex-basis: 10%;
+  flex-basis: 13%;
   overflow: hidden;
   padding: .5rem;
 }
@@ -1478,6 +1478,7 @@ body {
   left: 1rem;
   position: absolute;
   top: 1rem;
+  filter: drop-shadow(0 0 5px #7a7a7a);
 }
 .layout-grid-small .selected .bookmark-card {
   background-color: rgba(67, 133, 243, 0.2);
@@ -1485,9 +1486,10 @@ body {
 .layout-grid-small .flex-text {
   display: inline-block;
   margin: 0 auto;
-  max-width: 100%;
+  max-width: 120%;
   position: relative;
   text-align: center;
+  color: #fff;
 }
 .layout-grid-small .flex-text .prefix,
 .layout-grid-small .flex-text .suffix {
@@ -1504,7 +1506,7 @@ body {
   display: inline-block;
   font-family: PT Sans;
   font-size: 1.25rem;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.25;
   overflow: hidden;
   text-overflow: ellipsis;

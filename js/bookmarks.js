@@ -12887,12 +12887,11 @@
               });
             })(r.querySelector("img"), n)
               .then(function (t) {
-                r.style.color = t;
+                r.style.background = t;
               })
               .catch(function () {
                 r.style.color = "#666";
-              });
-          }
+              });}
         }
         t.querySelectorAll(".bookmark-item").forEach(r),
           new MutationObserver(function (t) {
@@ -13875,3 +13874,4 @@
     });
   },
 ]);
+
