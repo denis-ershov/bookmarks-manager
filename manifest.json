@@ -10,7 +10,6 @@
    },
    "default_locale": "en",
    "description": "__MSG_extDescription__",
-   "differential_fingerprint": "1.c73059fe5d2079dd97f241092bef1d4384735f5bfd02ce36d3e93012c930c24d",
    "icons": {
       "128": "icons/icon-128.png",
       "16": "icons/icon-16.png",
