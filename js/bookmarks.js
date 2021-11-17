@@ -10317,13 +10317,13 @@
             (i = S()),
             (a = w("img")),
             n.src !== "/images/search.svg" && T(n, "src", "/images/search.svg"),
-            T(n, "alt", "Search"),
+            T(n, "alt", "Поиск"),
             T(n, "class", "search-icon"),
             T(o, "type", "text"),
             T(o, "class", "search-input"),
-            T(o, "placeholder", "Search bookmarks"),
+            T(o, "placeholder", "Поиск"),
             a.src !== "/images/close.svg" && T(a, "src", "/images/close.svg"),
-            T(a, "alt", "Clear"),
+            T(a, "alt", "Очистить"),
             T(a, "class", "clear-icon"),
             D(a, "show", "" !== t.searchValue),
             T(e, "class", "search"),
@@ -11213,7 +11213,7 @@
     var Fe = function () {
       o.a.bookmarks.getTree().then(function (t) {
         var e =
-            '\n<!DOCTYPE NETSCAPE-Bookmark-file-1>\n\x3c!-- This is an automatically generated file.\n    It will be read and overwritten.\n    DO NOT EDIT! --\x3e\n<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">\n<TITLE>Bookmarks</TITLE>\n<H1>Bookmarks</H1>\n<DL><p>\n    ' +
+            '\n<!DOCTYPE NETSCAPE-Bookmark-file-1>\n\x3c!-- This is an automatically generated file.\n    It will be read and overwritten.\n    DO NOT EDIT! --\x3e\n<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">\n<TITLE>Закладки</TITLE>\n<H1>Закладки</H1>\n<DL><p>\n    ' +
             (function t(e) {
               var n = "";
               return (
@@ -11256,18 +11256,18 @@
           (e = w("nav")),
             (n = w("ul")),
             (r = w("li")),
-            ((o = w("button")).textContent = "Add bookmark"),
+            ((o = w("button")).textContent = "Добавить закладку"),
             (i = S()),
             (a = w("li")),
-            ((s = w("button")).textContent = "Add folder"),
+            ((s = w("button")).textContent = "Добавить папку"),
             (c = S()),
             (l = w("li")),
             (u = w("label")),
-            (d = A("Import bookmarks\n                ")),
+            (d = A("Импортировать закладки\n                ")),
             (h = w("input")),
             (m = S()),
             (g = w("li")),
-            ((v = w("button")).textContent = "Export bookmarks"),
+            ((v = w("button")).textContent = "Экспортировать закладки"),
             T(h, "type", "file"),
             T(h, "id", "file"),
             T(h, "accept", "text/html"),
@@ -11393,7 +11393,7 @@
               ((r = w("button")).innerHTML =
                 '<img src="images/menu.svg" alt="Close sidebar">'),
               (o = S()),
-              ((i = w("h1")).textContent = "Bookmarks"),
+              ((i = w("h1")).textContent = "Закладки"),
               (a = S()),
               st(f.$$.fragment),
               (s = S()),
@@ -11543,7 +11543,7 @@
             ((n = w("button")).innerHTML =
               '<img src="/images/menu.svg" alt="Menu">'),
             (r = S()),
-            ((o = w("h1")).textContent = "Bookmarks"),
+            ((o = w("h1")).textContent = "Закладки"),
             (i = S()),
             st(c.$$.fragment),
             T(e, "class", "header"),
@@ -11831,7 +11831,7 @@
       var e;
       return {
         c: function () {
-          ((e = w("h1")).textContent = "Bookmarks"), T(e, "class", "headline");
+          ((e = w("h1")).textContent = "Закладки"), T(e, "class", "headline");
         },
         m: function (t, n) {
           x(t, e, n);
@@ -12094,7 +12094,7 @@
       return {
         c: function () {
           (e = w("section")),
-            ((n = w("h2")).textContent = "Folders"),
+            ((n = w("h2")).textContent = "Папки"),
             (r = S()),
             st(c.$$.fragment),
             (o = S()),
@@ -12293,26 +12293,26 @@
           (e = w("div")),
             (n = w("ul")),
             (r = w("li")),
-            ((o = w("button")).textContent = "Edit"),
+            ((o = w("button")).textContent = "Редактировать"),
             (i = S()),
             (a = w("li")),
-            ((s = w("button")).textContent = "Move"),
+            ((s = w("button")).textContent = "Переместить"),
             (c = S()),
             (l = w("li")),
-            ((u = w("button")).textContent = "Delete"),
+            ((u = w("button")).textContent = "Удалить"),
             (f = S()),
             (d = w("li")),
-            ((h = w("button")).textContent = "Copy URL"),
+            ((h = w("button")).textContent = "Копировать ссылку"),
             (m = S()),
             (g = w("ul")),
             (v = w("li")),
-            ((b = w("button")).textContent = "Open in new tab"),
+            ((b = w("button")).textContent = "Открыть в новой вкладке"),
             (k = S()),
             (A = w("li")),
-            ((O = w("button")).textContent = "Open in new window"),
+            ((O = w("button")).textContent = "Открыть в новом окне"),
             (L = S()),
             (C = w("li")),
-            ((E = w("button")).textContent = "Open in incongnito window"),
+            ((E = w("button")).textContent = "Открыть в новом приватном окне"),
             T(n, "class", "primary-menu"),
             T(g, "class", "secondary-menu"),
             T(e, "class", "tree-item-menu"),
@@ -12490,7 +12490,7 @@
       var e;
       return {
         c: function () {
-          (e = w("h2")).textContent = "Bookmarks";
+          (e = w("h2")).textContent = "Закладки";
         },
         m: function (t, n) {
           x(t, e, n);
@@ -12512,7 +12512,7 @@
         c =
           (void 0 !== t.$folders[t.$selectedFolderId]
             ? t.$folders[t.$selectedFolderId].title
-            : "Bookmarks") + "";
+            : "Закладки") + "";
       return {
         c: function () {
           (e = w("h2")),
@@ -12534,7 +12534,7 @@
                 (c =
                   (void 0 !== e.$folders[e.$selectedFolderId]
                     ? e.$folders[e.$selectedFolderId].title
-                    : "Bookmarks") + "") &&
+                    : "Закладки") + "") &&
               C(s, c);
         },
         d: function (t) {
